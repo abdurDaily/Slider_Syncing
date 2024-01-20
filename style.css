@@ -26,7 +26,7 @@
 }
 .slider-nav img{
 	width: 100%;
-	margin: 0 10px;
+	
 	height: 100px;
 	object-fit: cover;
 }
@@ -34,4 +34,15 @@
 	content: '';
 	background-color: #000;
 	color: #fff;
+}
+
+
+.product2{
+	padding: 0 5px;
+	opacity: 0.5;
+	transition: 0.3s ease;
+}
+
+.slick-center .product2{
+	opacity: 1;
 }
